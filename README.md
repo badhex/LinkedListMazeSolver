@@ -7,7 +7,7 @@ The LinkedListMazeSolver class is optimized for readability and performance. It 
 ## Usage
 
 ```python
-from LinkedListMazeSolver.maze_solver import AStarMazeSolver, BFSMazeSolver
+from LinkedListMazeSolver import AStarMazeSolver, BFSMazeSolver
 
 maze = {
     "A": {"exit": {"n": "B", "e": "D", "w": "C", "ne": "G", "nw": "F"}},
